@@ -23,5 +23,16 @@
   "license": "ISC",
   "devDependencies": {
     "tape": "~2.13.3"
-  }
+  },
+  "dependencies": {
+    "tape": "^2.13.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wblankenship/varstring.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wblankenship/varstring/issues"
+  },
+  "homepage": "https://github.com/wblankenship/varstring"
 }
