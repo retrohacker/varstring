@@ -1,0 +1,27 @@
+{
+  "name": "varstring",
+  "version": "0.0.1",
+  "description": "Replaces {variables} in strings. Great for generating configuration files!",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "tape tests/*.test.js"
+  },
+  "keywords": [
+    "variables",
+    "string",
+    "replacement",
+    "swap",
+    "strings",
+    "replace",
+    "strings"
+  ],
+  "author": "william.jblankenship@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "tape": "^2.13.3"
+  }
+}
