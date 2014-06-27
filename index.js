@@ -4,8 +4,8 @@ module.exports = function(string,params) {
     string = params.shift()
   }
 
-  params.forEach(function(v,i) {
-    string = string.replace(new RegExp(escapeRegExp("{"+i+"}"),'g'),v)
+  Object.keys(params).forEach(function(v) {
+    string = string.replace(new RegExp(escapeRegExp("{"+v+"}"),'g'),params[v])
   })
   return string
 }
