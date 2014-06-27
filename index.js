@@ -1,5 +1,8 @@
 module.exports = function(string,params) {
-  if(!(params instanceof Array)) {
+  if(params instanceof Object) {
+    //do nothing
+  }
+  else if(!(params instanceof Array)) {
     params = Array.prototype.slice.call(arguments)
     string = params.shift()
   }
