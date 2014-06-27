@@ -1,6 +1,6 @@
 {
   "name": "varstring",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Replaces {variables} in strings. Great for generating configuration files!",
   "main": "index.js",
   "directories": {
