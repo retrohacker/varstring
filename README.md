@@ -1,6 +1,8 @@
 VarString
 ---
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/retrohacker/varstring.svg)](https://greenkeeper.io/)
+
 VarString is a simple node.js library for inserting variables into a string. Great for generating configuration files!
 
 [![Build Status](https://travis-ci.org/wblankenship/varstring.svg?branch=master)](https://travis-ci.org/wblankenship/varstring)
